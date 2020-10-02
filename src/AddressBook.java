@@ -29,4 +29,8 @@ public class AddressBook{
             System.out.println(buddy.getName());
         }
     }
+
+    private int lengthOfAddressBook() {
+        return addressBook.size();
+    }
 }
