@@ -13,7 +13,6 @@ public class AddressBook{
         addressBook1.addBuddy(buddy);
         addressBook1.addBuddy(new BuddyInfo("Tim",17));
         addressBook1.printName();
-        addressBook1.removeBuddy(buddy);
     }
 
     private void addBuddy(BuddyInfo buddy){
